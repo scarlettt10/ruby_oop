@@ -13,4 +13,3 @@ class Cat < Mammal # in this case 'super' calls to the 'mammal'class initialize
 end
 
 cat_1 = Cat.new('Jax', 3)
-binding.pry
