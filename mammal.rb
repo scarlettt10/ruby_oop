@@ -1,11 +1,11 @@
 
 class Mammal
   attr_accessor :name, :age
-  def initialize
+  def initialize(name, age)
   
     @name = name
   
-    @ge = age
+    @age = age
 
     def breathe
       puts "inhale and exhale"
@@ -14,5 +14,5 @@ class Mammal
     def speak
       raise "you must override this in a child class"
     end
-
+  end
 end
